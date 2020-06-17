@@ -40,7 +40,7 @@ const SignUpPage = () => {
     <GlobalLayout>
       <h1>Sign Up</h1>
       <Form formMethods={formMethods} onSubmit={onSubmit}>
-        {formError && <div className="form-error">{formError}</div>}
+        {formError && <p className="form-error">{formError}</p>}
         <div className="field">
           <Label name="email" errorClassName="label-error">
             Email
