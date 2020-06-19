@@ -10,7 +10,7 @@ import './index.css'
 
 ReactDOM.render(
   <FatalErrorBoundary page={FatalErrorPage}>
-    <AuthProvider client={goTrue} type="gotrue">
+    <AuthProvider client={goTrue} type="goTrue">
       <RedwoodProvider>
         <Routes />
       </RedwoodProvider>
