@@ -29,7 +29,7 @@ const ForgotPasswordPage = () => {
     <GlobalLayout>
       <h2>Recover Password</h2>
       <p>
-        Please enter your email to recieve instructions for resetting your
+        Please enter your email to receive instructions for resetting your
         password.
       </p>
       <Form onSubmit={onSubmit} validation={{ mode: 'onBlur' }}>
